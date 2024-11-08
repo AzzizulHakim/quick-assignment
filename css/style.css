@@ -1,0 +1,231 @@
+/* common start*/
+body{
+    margin: 0;
+    padding: 0;
+}
+/* common end*/
+
+/* header start*/
+
+header { 
+    font-family: sans-serif;
+    padding: 10px 0;
+    border-bottom: 3px solid #eef0f3;
+}
+
+.container { 
+    width: 90%;   
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header div.container div.logo { 
+    width: 10%;
+    float: left;
+}
+
+header div.container div.logo img { 
+    width: 100%;
+
+}
+
+header div.container nav.menu {
+    width: 45%; 
+    float: right;
+
+}
+
+header div.container nav.menu ul { 
+    float: right;
+}
+
+header div.container nav.menu ul li { 
+    list-style: none;
+    float: left;
+}
+
+header div.container nav.menu ul li a { 
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2656;
+    text-decoration: none;
+    margin: 0px 20px;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+header div.container nav.menu ul li:last-child a {
+ margin-right: 0;
+}
+/* header end*/
+/* banner start*/
+.banner { 
+    padding: 60px 0;
+
+}
+
+.container2 { 
+    width: 55%;
+    margin: 0 auto;
+
+}
+
+.banner .container2 {
+    font-family: sans-serif; 
+    width: 55%;
+    margin: 0 auto;
+
+}
+
+
+.banner .container2 .b_content { 
+    text-align: center;
+
+}
+
+.banner .container2 .b_content h1 { 
+    font-size: 45px;
+    font-weight: 700;
+    color: #0f2656;
+    margin: 0;
+}
+
+.banner .container2 .b_content h2 { 
+    font-size: 45px;
+    font-weight: 700;
+    color: #008AFF;
+    margin: 10px 0;
+}
+
+.banner .container2 .b_content p { 
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2656;
+    line-height: 23px;
+    word-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.banner .container2 .b_content .b_img { 
+    margin: 0 auto;
+    width: 75%;
+}
+
+.banner .container2 .b_content .b_img img { 
+    width: 100%;
+}
+/* banner end*/
+/* successful start*/
+.successful {
+    padding: 60px;
+
+}
+.s_content {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.s_left {
+    width: 40%;
+    padding: 0 10px 0 20px;
+    float: left;
+    text-align: right;
+}
+
+.s_left h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #f15767;
+    margin: 0 0 10px;
+}
+
+.s_left p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #0f2656;
+    margin: 0;
+    line-height: 25px;
+    word-spacing: 1px;
+}
+
+.s_right {
+    width: 50%;
+    float: right;
+    padding: 0 20px 0 10px;
+}
+
+.s_right h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #0f2656;
+    line-height: 50px;
+    margin: 0;
+}
+/* successful end*/
+/* feature start*/
+.feature{}
+.f_content{
+    overflow: hidden;
+}
+.pink{
+    background-color: #FEEBED;
+}
+.green{
+    background-color: #EAF9F4;
+}
+
+.yellow{
+    background-color: #FFF8E8;
+}
+
+.f_single {
+    width: 28%;
+    font-family: sans-serif;
+    color: #0f2656;
+    padding: 30px 24px 45px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 80px;
+}
+.f_single:last-child{
+    margin-right: 0;
+}
+
+.f_img{}
+.f_img img{
+    width: 100%;
+}
+.f_single h2{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.f_single p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+/* feature end*/
+/* footer start*/
+footer{
+    background-color: #008AFF;
+}
+.footer {
+    font-family: sans-serif;
+}
+.footer h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #80C1FF;
+    padding: 28px;
+    font-weight: 400;
+}
+.footer h1 span {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 8px;
+}
+/* footer end*/
